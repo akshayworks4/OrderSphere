@@ -1,0 +1,11 @@
+/Users/akshaymashale/Learning Modules/OrderProcessing_Platform/OrderSphere/OrderSphere.Backend/src/OrderSphere.Domain/bin/Debug/net8.0/OrderSphere.Domain.deps.json
+/Users/akshaymashale/Learning Modules/OrderProcessing_Platform/OrderSphere/OrderSphere.Backend/src/OrderSphere.Domain/bin/Debug/net8.0/OrderSphere.Domain.dll
+/Users/akshaymashale/Learning Modules/OrderProcessing_Platform/OrderSphere/OrderSphere.Backend/src/OrderSphere.Domain/bin/Debug/net8.0/OrderSphere.Domain.pdb
+/Users/akshaymashale/Learning Modules/OrderProcessing_Platform/OrderSphere/OrderSphere.Backend/src/OrderSphere.Domain/obj/Debug/net8.0/OrderSphere.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/akshaymashale/Learning Modules/OrderProcessing_Platform/OrderSphere/OrderSphere.Backend/src/OrderSphere.Domain/obj/Debug/net8.0/OrderSphere.Domain.AssemblyInfoInputs.cache
+/Users/akshaymashale/Learning Modules/OrderProcessing_Platform/OrderSphere/OrderSphere.Backend/src/OrderSphere.Domain/obj/Debug/net8.0/OrderSphere.Domain.AssemblyInfo.cs
+/Users/akshaymashale/Learning Modules/OrderProcessing_Platform/OrderSphere/OrderSphere.Backend/src/OrderSphere.Domain/obj/Debug/net8.0/OrderSphere.Domain.csproj.CoreCompileInputs.cache
+/Users/akshaymashale/Learning Modules/OrderProcessing_Platform/OrderSphere/OrderSphere.Backend/src/OrderSphere.Domain/obj/Debug/net8.0/OrderSphere.Domain.dll
+/Users/akshaymashale/Learning Modules/OrderProcessing_Platform/OrderSphere/OrderSphere.Backend/src/OrderSphere.Domain/obj/Debug/net8.0/refint/OrderSphere.Domain.dll
+/Users/akshaymashale/Learning Modules/OrderProcessing_Platform/OrderSphere/OrderSphere.Backend/src/OrderSphere.Domain/obj/Debug/net8.0/OrderSphere.Domain.pdb
+/Users/akshaymashale/Learning Modules/OrderProcessing_Platform/OrderSphere/OrderSphere.Backend/src/OrderSphere.Domain/obj/Debug/net8.0/ref/OrderSphere.Domain.dll

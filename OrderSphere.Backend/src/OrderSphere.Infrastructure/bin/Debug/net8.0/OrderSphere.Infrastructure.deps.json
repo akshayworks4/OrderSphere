@@ -1,0 +1,70 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "OrderSphere.Infrastructure/1.0.0": {
+        "dependencies": {
+          "OrderSphere.Application": "1.0.0",
+          "OrderSphere.Shared": "1.0.0"
+        },
+        "runtime": {
+          "OrderSphere.Infrastructure.dll": {}
+        }
+      },
+      "OrderSphere.Application/1.0.0": {
+        "dependencies": {
+          "OrderSphere.Domain": "1.0.0",
+          "OrderSphere.Shared": "1.0.0"
+        },
+        "runtime": {
+          "OrderSphere.Application.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "OrderSphere.Domain/1.0.0": {
+        "runtime": {
+          "OrderSphere.Domain.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "OrderSphere.Shared/1.0.0": {
+        "runtime": {
+          "OrderSphere.Shared.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "OrderSphere.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "OrderSphere.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "OrderSphere.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "OrderSphere.Shared/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

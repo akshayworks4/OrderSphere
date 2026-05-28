@@ -1,0 +1,6 @@
+@OrderSphere.API_HostAddress = http://localhost:5265
+
+GET {{OrderSphere.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

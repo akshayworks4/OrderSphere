@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "Q8rGQtP7fk5YKevUJ06IDMTbgEEo3UEj3QcAEkgZHuE=",
+  "Source": "OrderSphere.API",
+  "BasePath": "_content/OrderSphere.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

@@ -1,0 +1,113 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "OrderSphere.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/OrderSphere.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OrderSphere.Domain.dll": {}
+        }
+      },
+      "OrderSphere.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/OrderSphere.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OrderSphere.Shared.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "OrderSphere.Domain/1.0.0": {
+      "type": "project",
+      "path": "../OrderSphere.Domain/OrderSphere.Domain.csproj",
+      "msbuildProject": "../OrderSphere.Domain/OrderSphere.Domain.csproj"
+    },
+    "OrderSphere.Shared/1.0.0": {
+      "type": "project",
+      "path": "../OrderSphere.Shared/OrderSphere.Shared.csproj",
+      "msbuildProject": "../OrderSphere.Shared/OrderSphere.Shared.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "OrderSphere.Domain >= 1.0.0",
+      "OrderSphere.Shared >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/Users/akshaymashale/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/akshaymashale/Learning Modules/OrderProcessing_Platform/OrderSphere/OrderSphere.Backend/src/OrderSphere.Application/OrderSphere.Application.csproj",
+      "projectName": "OrderSphere.Application",
+      "projectPath": "/Users/akshaymashale/Learning Modules/OrderProcessing_Platform/OrderSphere/OrderSphere.Backend/src/OrderSphere.Application/OrderSphere.Application.csproj",
+      "packagesPath": "/Users/akshaymashale/.nuget/packages/",
+      "outputPath": "/Users/akshaymashale/Learning Modules/OrderProcessing_Platform/OrderSphere/OrderSphere.Backend/src/OrderSphere.Application/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/akshaymashale/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "/Users/akshaymashale/Learning Modules/OrderProcessing_Platform/OrderSphere/OrderSphere.Backend/src/OrderSphere.Domain/OrderSphere.Domain.csproj": {
+              "projectPath": "/Users/akshaymashale/Learning Modules/OrderProcessing_Platform/OrderSphere/OrderSphere.Backend/src/OrderSphere.Domain/OrderSphere.Domain.csproj"
+            },
+            "/Users/akshaymashale/Learning Modules/OrderProcessing_Platform/OrderSphere/OrderSphere.Backend/src/OrderSphere.Shared/OrderSphere.Shared.csproj": {
+              "projectPath": "/Users/akshaymashale/Learning Modules/OrderProcessing_Platform/OrderSphere/OrderSphere.Backend/src/OrderSphere.Shared/OrderSphere.Shared.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.407/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
