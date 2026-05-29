@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OrderSphere.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+084d59398f6eca467f71a7e0d656a846e050db80")]
 [assembly: System.Reflection.AssemblyProductAttribute("OrderSphere.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OrderSphere.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
