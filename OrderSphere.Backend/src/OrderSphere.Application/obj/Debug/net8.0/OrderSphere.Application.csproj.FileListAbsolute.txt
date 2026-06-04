@@ -15,3 +15,4 @@
 /Users/akshaymashale/Learning Modules/OrderProcessing_Platform/OrderSphere/OrderSphere.Backend/src/OrderSphere.Application/obj/Debug/net8.0/refint/OrderSphere.Application.dll
 /Users/akshaymashale/Learning Modules/OrderProcessing_Platform/OrderSphere/OrderSphere.Backend/src/OrderSphere.Application/obj/Debug/net8.0/OrderSphere.Application.pdb
 /Users/akshaymashale/Learning Modules/OrderProcessing_Platform/OrderSphere/OrderSphere.Backend/src/OrderSphere.Application/obj/Debug/net8.0/ref/OrderSphere.Application.dll
+/Users/akshaymashale/Learning Modules/OrderProcessing_Platform/OrderSphere/OrderSphere.Backend/src/OrderSphere.Application/obj/Debug/net8.0/OrderSphere.Application.sourcelink.json

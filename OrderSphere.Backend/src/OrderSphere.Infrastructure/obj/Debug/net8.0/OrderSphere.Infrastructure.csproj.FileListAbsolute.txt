@@ -17,3 +17,4 @@
 /Users/akshaymashale/Learning Modules/OrderProcessing_Platform/OrderSphere/OrderSphere.Backend/src/OrderSphere.Infrastructure/obj/Debug/net8.0/refint/OrderSphere.Infrastructure.dll
 /Users/akshaymashale/Learning Modules/OrderProcessing_Platform/OrderSphere/OrderSphere.Backend/src/OrderSphere.Infrastructure/obj/Debug/net8.0/OrderSphere.Infrastructure.pdb
 /Users/akshaymashale/Learning Modules/OrderProcessing_Platform/OrderSphere/OrderSphere.Backend/src/OrderSphere.Infrastructure/obj/Debug/net8.0/ref/OrderSphere.Infrastructure.dll
+/Users/akshaymashale/Learning Modules/OrderProcessing_Platform/OrderSphere/OrderSphere.Backend/src/OrderSphere.Infrastructure/obj/Debug/net8.0/OrderSphere.Infrastructure.sourcelink.json

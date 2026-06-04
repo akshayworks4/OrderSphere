@@ -17,3 +17,6 @@
 /Users/akshaymashale/Learning Modules/OrderProcessing_Platform/OrderSphere/OrderSphere.Backend/src/OrderSphere.Persistence/obj/Debug/net8.0/refint/OrderSphere.Persistence.dll
 /Users/akshaymashale/Learning Modules/OrderProcessing_Platform/OrderSphere/OrderSphere.Backend/src/OrderSphere.Persistence/obj/Debug/net8.0/OrderSphere.Persistence.pdb
 /Users/akshaymashale/Learning Modules/OrderProcessing_Platform/OrderSphere/OrderSphere.Backend/src/OrderSphere.Persistence/obj/Debug/net8.0/ref/OrderSphere.Persistence.dll
+/Users/akshaymashale/Learning Modules/OrderProcessing_Platform/OrderSphere/OrderSphere.Backend/src/OrderSphere.Persistence/obj/Debug/net8.0/OrderSphere.Persistence.sourcelink.json
+/Users/akshaymashale/Learning Modules/OrderProcessing_Platform/OrderSphere/OrderSphere.Backend/src/OrderSphere.Persistence/bin/Debug/net8.0/OrderSphere.Persistence.runtimeconfig.json
+/Users/akshaymashale/Learning Modules/OrderProcessing_Platform/OrderSphere/OrderSphere.Backend/src/OrderSphere.Persistence/obj/Debug/net8.0/OrderSphere.Persistence.genruntimeconfig.cache
