@@ -153,3 +153,8 @@
 /Users/akshaymashale/Learning Modules/OrderProcessing_Platform/OrderSphere/OrderSphere.Backend/src/OrderSphere.API/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.Workspaces.resources.dll
 /Users/akshaymashale/Learning Modules/OrderProcessing_Platform/OrderSphere/OrderSphere.Backend/src/OrderSphere.API/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.resources.dll
 /Users/akshaymashale/Learning Modules/OrderProcessing_Platform/OrderSphere/OrderSphere.Backend/src/OrderSphere.API/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/akshaymashale/Learning Modules/OrderProcessing_Platform/OrderSphere/OrderSphere.Backend/src/OrderSphere.API/bin/Debug/net8.0/BCrypt-Net-Next.dll
+/Users/akshaymashale/Learning Modules/OrderProcessing_Platform/OrderSphere/OrderSphere.Backend/src/OrderSphere.API/bin/Debug/net8.0/FluentValidation.dll
+/Users/akshaymashale/Learning Modules/OrderProcessing_Platform/OrderSphere/OrderSphere.Backend/src/OrderSphere.API/bin/Debug/net8.0/FluentValidation.DependencyInjectionExtensions.dll
+/Users/akshaymashale/Learning Modules/OrderProcessing_Platform/OrderSphere/OrderSphere.Backend/src/OrderSphere.API/bin/Debug/net8.0/MediatR.dll
+/Users/akshaymashale/Learning Modules/OrderProcessing_Platform/OrderSphere/OrderSphere.Backend/src/OrderSphere.API/bin/Debug/net8.0/MediatR.Extensions.Microsoft.DependencyInjection.dll

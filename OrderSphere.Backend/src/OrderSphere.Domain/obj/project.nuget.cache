@@ -1,11 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2SJHQDbXXiM=",
+  "dgSpecHash": "rrjMCtAKRfM=",
   "success": true,
   "projectFilePath": "/Users/akshaymashale/Learning Modules/OrderProcessing_Platform/OrderSphere/OrderSphere.Backend/src/OrderSphere.Domain/OrderSphere.Domain.csproj",
-  "expectedPackageFiles": [
-    "/Users/akshaymashale/.nuget/packages/microsoft.netcore.app.ref/8.0.13/microsoft.netcore.app.ref.8.0.13.nupkg.sha512",
-    "/Users/akshaymashale/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.13/microsoft.aspnetcore.app.ref.8.0.13.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }

@@ -25,7 +25,6 @@ public sealed class UserConfiguration : IEntityTypeConfiguration<User>
             .HasMaxLength(256);
 
         builder.Property(x => x.PhoneNumber)
-            .IsRequired()
             .HasMaxLength(20);
 
         builder.Property(x => x.PasswordHash)

@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "IpWD5VOxKLY=",
+  "dgSpecHash": "EBU0Yp8xVZk=",
   "success": true,
   "projectFilePath": "/Users/akshaymashale/Learning Modules/OrderProcessing_Platform/OrderSphere/OrderSphere.Backend/src/OrderSphere.API/OrderSphere.API.csproj",
   "expectedPackageFiles": [
     "/Users/akshaymashale/.nuget/packages/azure.core/1.38.0/azure.core.1.38.0.nupkg.sha512",
     "/Users/akshaymashale/.nuget/packages/azure.identity/1.11.4/azure.identity.1.11.4.nupkg.sha512",
+    "/Users/akshaymashale/.nuget/packages/bcrypt.net-next/4.2.0/bcrypt.net-next.4.2.0.nupkg.sha512",
     "/Users/akshaymashale/.nuget/packages/fluentvalidation/8.6.3/fluentvalidation.8.6.3.nupkg.sha512",
     "/Users/akshaymashale/.nuget/packages/fluentvalidation.dependencyinjectionextensions/8.6.3/fluentvalidation.dependencyinjectionextensions.8.6.3.nupkg.sha512",
     "/Users/akshaymashale/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
@@ -90,10 +91,7 @@
     "/Users/akshaymashale/.nuget/packages/system.text.json/4.7.2/system.text.json.4.7.2.nupkg.sha512",
     "/Users/akshaymashale/.nuget/packages/system.threading.channels/6.0.0/system.threading.channels.6.0.0.nupkg.sha512",
     "/Users/akshaymashale/.nuget/packages/system.threading.tasks.extensions/4.5.4/system.threading.tasks.extensions.4.5.4.nupkg.sha512",
-    "/Users/akshaymashale/.nuget/packages/system.windows.extensions/6.0.0/system.windows.extensions.6.0.0.nupkg.sha512",
-    "/Users/akshaymashale/.nuget/packages/microsoft.netcore.app.ref/8.0.13/microsoft.netcore.app.ref.8.0.13.nupkg.sha512",
-    "/Users/akshaymashale/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.13/microsoft.aspnetcore.app.ref.8.0.13.nupkg.sha512",
-    "/Users/akshaymashale/.nuget/packages/microsoft.netcore.app.host.osx-arm64/8.0.13/microsoft.netcore.app.host.osx-arm64.8.0.13.nupkg.sha512"
+    "/Users/akshaymashale/.nuget/packages/system.windows.extensions/6.0.0/system.windows.extensions.6.0.0.nupkg.sha512"
   ],
   "logs": []
 }

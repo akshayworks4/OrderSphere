@@ -15,9 +15,7 @@ public class Role
     {
     }
 
-    public Role(
-        string name,
-        string? description = null)
+    public Role(string name, string? description = null)
     {
         Id = Guid.NewGuid();
 

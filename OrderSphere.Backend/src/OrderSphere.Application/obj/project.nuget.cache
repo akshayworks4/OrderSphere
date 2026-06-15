@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "q6u4XUjrIaI=",
+  "dgSpecHash": "fNWs5oIFw1A=",
   "success": true,
   "projectFilePath": "/Users/akshaymashale/Learning Modules/OrderProcessing_Platform/OrderSphere/OrderSphere.Backend/src/OrderSphere.Application/OrderSphere.Application.csproj",
   "expectedPackageFiles": [
@@ -9,9 +9,7 @@
     "/Users/akshaymashale/.nuget/packages/mediatr/8.1.0/mediatr.8.1.0.nupkg.sha512",
     "/Users/akshaymashale/.nuget/packages/mediatr.extensions.microsoft.dependencyinjection/8.1.0/mediatr.extensions.microsoft.dependencyinjection.8.1.0.nupkg.sha512",
     "/Users/akshaymashale/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.2/microsoft.extensions.dependencyinjection.abstractions.8.0.2.nupkg.sha512",
-    "/Users/akshaymashale/.nuget/packages/system.componentmodel.annotations/4.4.1/system.componentmodel.annotations.4.4.1.nupkg.sha512",
-    "/Users/akshaymashale/.nuget/packages/microsoft.netcore.app.ref/8.0.13/microsoft.netcore.app.ref.8.0.13.nupkg.sha512",
-    "/Users/akshaymashale/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.13/microsoft.aspnetcore.app.ref.8.0.13.nupkg.sha512"
+    "/Users/akshaymashale/.nuget/packages/system.componentmodel.annotations/4.4.1/system.componentmodel.annotations.4.4.1.nupkg.sha512"
   ],
   "logs": []
 }

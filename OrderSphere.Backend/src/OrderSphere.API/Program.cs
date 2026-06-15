@@ -1,25 +1,58 @@
+using OrderSphere.Infrastructure;
+using OrderSphere.Persistence.Context;
 using OrderSphere.Persistence.DependencyInjection;
+using OrderSphere.Persistence.Seeding;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+#region Services
+builder.Services.AddControllers();
+
+// Swagger
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-// Dependency Injection Services
+// Clean Architecture layers
 builder.Services.AddPersistence(builder.Configuration);
 builder.Services.AddApplication();
+builder.Services.AddInfrastructure();
+
+#endregion
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
+#region Middleware Pipeline
+
+// Swagger (only in development)
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
 }
 
+// Global middlewares
 app.UseHttpsRedirection();
-app.Run();
 
+app.UseAuthorization();
+
+app.MapControllers();
+#endregion
+
+#region Database Seeding
+
+using (var scope = app.Services.CreateScope())
+{
+    try
+    {
+        var dbContext = scope.ServiceProvider.GetRequiredService<OrderSphereDbContext>();
+        await RoleSeeder.SeedAsync(dbContext);
+    }
+    catch (Exception ex)
+    {
+        Console.WriteLine($"Seeding failed: {ex.Message}");
+    }
+}
+
+#endregion
+
+app.Run();
