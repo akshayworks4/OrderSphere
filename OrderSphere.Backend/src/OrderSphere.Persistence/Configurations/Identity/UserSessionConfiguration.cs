@@ -28,7 +28,7 @@ public sealed class UserSessionConfiguration : IEntityTypeConfiguration<UserSess
             .IsRequired();
 
         builder.Property(x => x.RevokedAt)
-            .IsRequired();
+            .IsRequired(false);
 
         builder.Property(x => x.IsActive)
             .IsRequired();

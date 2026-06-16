@@ -1,3 +1,4 @@
+using Microsoft.EntityFrameworkCore;
 using OrderSphere.Application.Interfaces.Persistence;
 using OrderSphere.Domain.Entities.Identity;
 using OrderSphere.Persistence.Context;
@@ -12,18 +13,27 @@ public class UserSessionRepository : IUserSessionRepository
         _dbContext = dbContext;
     }
 
-    public async Task AddAsync(UserSession userSession, CancellationToken cancellationToken = default)
+    public async Task AddAsync(
+        UserSession userSession,
+        CancellationToken cancellationToken = default)
     {
-        throw new NotImplementedException();
+        await _dbContext.UserSessions.AddAsync(userSession, cancellationToken);
+        await _dbContext.SaveChangesAsync(cancellationToken);
     }
 
-    public async Task<UserSession> GetByRefreshTokenAsync(string refreshToken, CancellationToken cancellationToken = default)
+    public async Task<UserSession?> GetByRefreshTokenAsync(
+        string refreshToken,
+        CancellationToken cancellationToken = default)
     {
-        throw new NotImplementedException();
+        return await _dbContext.UserSessions
+            .FirstOrDefaultAsync(x => x.RefreshToken == refreshToken, cancellationToken);
     }
 
-    public async Task UpdateAsync(UserSession userSession, CancellationToken cancellationToken = default)
+    public async Task UpdateAsync(
+        UserSession userSession,
+        CancellationToken cancellationToken = default)
     {
-        throw new NotImplementedException();
+        _dbContext.UserSessions.Update(userSession);
+        await _dbContext.SaveChangesAsync(cancellationToken);
     }
 }

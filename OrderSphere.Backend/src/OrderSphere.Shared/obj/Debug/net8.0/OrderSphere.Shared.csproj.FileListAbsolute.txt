@@ -5,8 +5,8 @@
 /Users/akshaymashale/Learning Modules/OrderProcessing_Platform/OrderSphere/OrderSphere.Backend/src/OrderSphere.Shared/obj/Debug/net8.0/OrderSphere.Shared.AssemblyInfoInputs.cache
 /Users/akshaymashale/Learning Modules/OrderProcessing_Platform/OrderSphere/OrderSphere.Backend/src/OrderSphere.Shared/obj/Debug/net8.0/OrderSphere.Shared.AssemblyInfo.cs
 /Users/akshaymashale/Learning Modules/OrderProcessing_Platform/OrderSphere/OrderSphere.Backend/src/OrderSphere.Shared/obj/Debug/net8.0/OrderSphere.Shared.csproj.CoreCompileInputs.cache
+/Users/akshaymashale/Learning Modules/OrderProcessing_Platform/OrderSphere/OrderSphere.Backend/src/OrderSphere.Shared/obj/Debug/net8.0/OrderSphere.Shared.sourcelink.json
 /Users/akshaymashale/Learning Modules/OrderProcessing_Platform/OrderSphere/OrderSphere.Backend/src/OrderSphere.Shared/obj/Debug/net8.0/OrderSphere.Shared.dll
 /Users/akshaymashale/Learning Modules/OrderProcessing_Platform/OrderSphere/OrderSphere.Backend/src/OrderSphere.Shared/obj/Debug/net8.0/refint/OrderSphere.Shared.dll
 /Users/akshaymashale/Learning Modules/OrderProcessing_Platform/OrderSphere/OrderSphere.Backend/src/OrderSphere.Shared/obj/Debug/net8.0/OrderSphere.Shared.pdb
 /Users/akshaymashale/Learning Modules/OrderProcessing_Platform/OrderSphere/OrderSphere.Backend/src/OrderSphere.Shared/obj/Debug/net8.0/ref/OrderSphere.Shared.dll
-/Users/akshaymashale/Learning Modules/OrderProcessing_Platform/OrderSphere/OrderSphere.Backend/src/OrderSphere.Shared/obj/Debug/net8.0/OrderSphere.Shared.sourcelink.json

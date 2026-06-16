@@ -10,9 +10,9 @@
 /Users/akshaymashale/Learning Modules/OrderProcessing_Platform/OrderSphere/OrderSphere.Backend/src/OrderSphere.Application/obj/Debug/net8.0/OrderSphere.Application.AssemblyInfoInputs.cache
 /Users/akshaymashale/Learning Modules/OrderProcessing_Platform/OrderSphere/OrderSphere.Backend/src/OrderSphere.Application/obj/Debug/net8.0/OrderSphere.Application.AssemblyInfo.cs
 /Users/akshaymashale/Learning Modules/OrderProcessing_Platform/OrderSphere/OrderSphere.Backend/src/OrderSphere.Application/obj/Debug/net8.0/OrderSphere.Application.csproj.CoreCompileInputs.cache
+/Users/akshaymashale/Learning Modules/OrderProcessing_Platform/OrderSphere/OrderSphere.Backend/src/OrderSphere.Application/obj/Debug/net8.0/OrderSphere.Application.sourcelink.json
 /Users/akshaymashale/Learning Modules/OrderProcessing_Platform/OrderSphere/OrderSphere.Backend/src/OrderSphere.Application/obj/Debug/net8.0/OrderSph.6E4FA05C.Up2Date
 /Users/akshaymashale/Learning Modules/OrderProcessing_Platform/OrderSphere/OrderSphere.Backend/src/OrderSphere.Application/obj/Debug/net8.0/OrderSphere.Application.dll
 /Users/akshaymashale/Learning Modules/OrderProcessing_Platform/OrderSphere/OrderSphere.Backend/src/OrderSphere.Application/obj/Debug/net8.0/refint/OrderSphere.Application.dll
 /Users/akshaymashale/Learning Modules/OrderProcessing_Platform/OrderSphere/OrderSphere.Backend/src/OrderSphere.Application/obj/Debug/net8.0/OrderSphere.Application.pdb
 /Users/akshaymashale/Learning Modules/OrderProcessing_Platform/OrderSphere/OrderSphere.Backend/src/OrderSphere.Application/obj/Debug/net8.0/ref/OrderSphere.Application.dll
-/Users/akshaymashale/Learning Modules/OrderProcessing_Platform/OrderSphere/OrderSphere.Backend/src/OrderSphere.Application/obj/Debug/net8.0/OrderSphere.Application.sourcelink.json

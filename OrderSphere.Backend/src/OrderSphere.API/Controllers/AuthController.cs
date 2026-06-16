@@ -1,6 +1,7 @@
 using MediatR;
 using Microsoft.AspNetCore.Identity.Data;
 using Microsoft.AspNetCore.Mvc;
+using OrderSphere.Application.Features.Identity.Commands.RefreshToken;
 using OrderSphere.Application.Features.Identity.Commands.RegisterUser;
 using RegisterRequest = OrderSphere.API.Contracts.Auth.RegisterRequest;
 
@@ -35,5 +36,25 @@ public class AuthController : ControllerBase
             return BadRequest(result.Error);
 
         return Ok(new { userId = result.Value });
+    }
+    [HttpPost("login")]
+    public async Task<IActionResult> Login([FromBody] LoginUserCommand command)
+    {
+        var result = await _mediator.Send(command);
+
+        if (!result.IsSuccess)
+            return Unauthorized(result.Error);
+
+        return Ok(result.Value);
+    }
+    [HttpPost("refresh")]
+    public async Task<IActionResult> Refresh([FromBody] RefreshTokenCommand command)
+    {
+        var result = await _mediator.Send(command);
+
+        if (!result.IsSuccess)
+            return Unauthorized(result.Error);
+
+        return Ok(result.Value);
     }
 }

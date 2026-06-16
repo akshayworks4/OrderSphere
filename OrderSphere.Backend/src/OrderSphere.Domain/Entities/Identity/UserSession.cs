@@ -28,18 +28,12 @@ public class UserSession
         string? ipAddress = null)
     {
         Id = Guid.NewGuid();
-
         UserId = userId;
-
         RefreshToken = refreshToken;
-
         DeviceInfo = deviceInfo;
         IpAddress = ipAddress;
-
         ExpiresAt = expiresAt;
-
         IsActive = true;
-        
         CreatedAt = DateTime.UtcNow;
         UpdatedAt = DateTime.UtcNow;
     }

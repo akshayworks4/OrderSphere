@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OrderSphere.Shared")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4263ad5ad77734d7b02eb6fa1ef76187c4d3fa24")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5d1f81e17c5083be0cf4684007f4802eb2f57247")]
 [assembly: System.Reflection.AssemblyProductAttribute("OrderSphere.Shared")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OrderSphere.Shared")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,4 +1,5 @@
 using OrderSphere.Infrastructure;
+using OrderSphere.Infrastructure.DependencyInjection;
 using OrderSphere.Persistence.Context;
 using OrderSphere.Persistence.DependencyInjection;
 using OrderSphere.Persistence.Seeding;
@@ -15,7 +16,7 @@ builder.Services.AddSwaggerGen();
 // Clean Architecture layers
 builder.Services.AddPersistence(builder.Configuration);
 builder.Services.AddApplication();
-builder.Services.AddInfrastructure();
+builder.Services.AddInfrastructure(builder.Configuration);
 
 #endregion
 
