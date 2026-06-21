@@ -23,9 +23,11 @@ public sealed class JwtProvider : IJwtProvider
     {
         var claims = new List<Claim>()
         {
-            new(JwtRegisteredClaimNames.Sub, user.Id.ToString()),
+            new(ClaimTypes.NameIdentifier, user.Id.ToString()),
             new(JwtRegisteredClaimNames.Email, user.Email),
-            new(ClaimTypes.Role, user.Role.Name)
+            new(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),
+            new("uid", user.Id.ToString()),
+            new(ClaimTypes.Role, user.Role?.Name ?? "Customer")
         };
 
         var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes((_jwtSettings.Secret)));

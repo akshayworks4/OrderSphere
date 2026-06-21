@@ -1,6 +1,10 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\OrderSphere.Application\OrderSphere.Application.csproj" />
     <ProjectReference Include="..\OrderSphere.Shared\OrderSphere.Shared.csproj" />
   </ItemGroup>

@@ -160,3 +160,4 @@
 /Users/akshaymashale/Learning Modules/OrderProcessing_Platform/OrderSphere/OrderSphere.Backend/src/OrderSphere.API/obj/Debug/net8.0/ref/OrderSphere.API.dll
 /Users/akshaymashale/Learning Modules/OrderProcessing_Platform/OrderSphere/OrderSphere.Backend/src/OrderSphere.API/bin/Debug/net8.0/Microsoft.Bcl.Cryptography.dll
 /Users/akshaymashale/Learning Modules/OrderProcessing_Platform/OrderSphere/OrderSphere.Backend/src/OrderSphere.API/bin/Debug/net8.0/System.Formats.Asn1.dll
+/Users/akshaymashale/Learning Modules/OrderProcessing_Platform/OrderSphere/OrderSphere.Backend/src/OrderSphere.API/bin/Debug/net8.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll

@@ -62,4 +62,9 @@ public class User
         PasswordHash = passwordHash;
         UpdatedAt = DateTime.UtcNow;
     }
+    public void ChangeRole(Guid roleId)
+    {
+        RoleId = roleId;
+        UpdatedAt = DateTime.UtcNow;
+    }
 }

@@ -87,7 +87,6 @@ namespace OrderSphere.Persistence.Migrations
                         .HasColumnType("nvarchar(500)");
 
                     b.Property<string>("PhoneNumber")
-                        .IsRequired()
                         .HasMaxLength(20)
                         .HasColumnType("nvarchar(20)");
 
@@ -138,7 +137,6 @@ namespace OrderSphere.Persistence.Migrations
                         .HasColumnType("nvarchar(500)");
 
                     b.Property<DateTime?>("RevokedAt")
-                        .IsRequired()
                         .HasColumnType("datetime2");
 
                     b.Property<DateTime>("UpdatedAt")
@@ -155,6 +153,42 @@ namespace OrderSphere.Persistence.Migrations
                     b.HasIndex("UserId");
 
                     b.ToTable("Identity_UserSession", (string)null);
+                });
+
+            modelBuilder.Entity("OrderSphere.Domain.Entities.Vendor.VendorApplication", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("BusinessName")
+                        .IsRequired()
+                        .HasMaxLength(200)
+                        .HasColumnType("nvarchar(200)");
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Description")
+                        .HasMaxLength(1000)
+                        .HasColumnType("nvarchar(1000)");
+
+                    b.Property<DateTime?>("ReviewedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Status")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
+
+                    b.Property<Guid>("UserId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("Vendor_Application", (string)null);
                 });
 
             modelBuilder.Entity("OrderSphere.Domain.Entities.Identity.User", b =>
@@ -174,6 +208,17 @@ namespace OrderSphere.Persistence.Migrations
                         .WithMany("UserSessions")
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("User");
+                });
+
+            modelBuilder.Entity("OrderSphere.Domain.Entities.Vendor.VendorApplication", b =>
+                {
+                    b.HasOne("OrderSphere.Domain.Entities.Identity.User", "User")
+                        .WithMany()
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
                     b.Navigation("User");

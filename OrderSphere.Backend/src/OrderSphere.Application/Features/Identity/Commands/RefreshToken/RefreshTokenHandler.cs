@@ -31,14 +31,13 @@ public sealed class RefreshTokenHandler
         var session = await _sessionRepository
             .GetByRefreshTokenAsync(request.RefreshToken, cancellationToken);
 
-        if (session is null || !session.IsActive)
+        if (session is null || !session.IsActive || session.RevokedAt!= null)
             return Result<LoginUserResponse>.Failure("Invalid refresh token");
 
         if (session.ExpiresAt < DateTime.UtcNow)
             return Result<LoginUserResponse>.Failure("Refresh token expired");
 
-        var user = await _userRepository
-            .GetByIdAsync(session.UserId, cancellationToken);
+        var user = await _userRepository.GetByIdAsync(session.UserId, cancellationToken);
 
         if (user is null)
             return Result<LoginUserResponse>.Failure("User not found");
